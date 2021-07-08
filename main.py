@@ -3,7 +3,7 @@ import os
 import shutil
 import glob
 import cv2
-import numpy as np
+import numpy==1.16 as np
 import streamlit as st
 import tempfile
 from keras.applications.vgg16 import VGG16
