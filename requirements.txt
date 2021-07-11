@@ -5,5 +5,5 @@ Pillow==8.0.1
 keras
 tensorflow==2.2
 opencv-python-headless
-matplotlib
-pip
+
+
