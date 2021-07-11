@@ -7,3 +7,4 @@ streamlit
 keras
 networkx
 pip
+libgl1-mesa-glx
