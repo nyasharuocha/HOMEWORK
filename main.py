@@ -62,14 +62,12 @@ if f is not None:
         stframe.image(img)
         count += 1
 
+name = st.text_input(label="Select Frame")
+submit = st.form_submit_button(label="Search Query")
+path = './frames/*'
 
-with st.form(key="form1"):
-    name = st.text_input(label="Select Frame")
-    submit = st.form_submit_button(label="Search Query")
-    path = './frames/*'
+for name in glob.glob('./frames/*' + str(count) + '.jpg'):
+    st.frame.image(path + str(name))
 
-    for name in glob.glob('./frames/*' + str(count) + '.jpg'):
-        st.frame.image(path + str(name))
-
-        if submit:
-            st.write(f'Detecting  {name}')
+    if submit:
+        st.write(f'Detecting  {name}')
