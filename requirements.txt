@@ -1,5 +1,5 @@
 numpy
-opencv_python
+opencv-python-headless
 keras_nightly
 matplotlib
 tensorflow
@@ -7,4 +7,4 @@ streamlit
 keras
 networkx
 pip
-libgl1-mesa-glx
+
